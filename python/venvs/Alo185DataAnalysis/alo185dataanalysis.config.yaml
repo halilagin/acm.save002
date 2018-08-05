@@ -1,0 +1,8 @@
+acm: !!python/object:acm.util.AcmHashObjectSerializer.AcmHashObjectSerializer
+  datasource: !!python/object:acm.util.AcmHashObjectSerializer.AcmHashObjectSerializer
+    alo: !!python/object:acm.util.AcmHashObjectSerializer.AcmHashObjectSerializer
+      path: /home/halil/gitlab/acm/jupyter/data/alo185.20180412/data.csv
+      path_phase010_htmldecoded: /home/halil/gitlab/acm/jupyter/data/alo185.20180412/data.phase010.htmldecoded.csv
+      path_phase020_htmltextextracted: /home/halil/gitlab/acm/jupyter/data/alo185.20180412/data.phase020.htmltextextracted.csv
+      path10rows: /home/halil/gitlab/acm/jupyter/data/alo185.20180412/data.10.csv
+      path10rows_phase010_htmldecoded: /home/halil/gitlab/acm/jupyter/data/alo185.20180412/data.10.phase010_htmldecoded.csv

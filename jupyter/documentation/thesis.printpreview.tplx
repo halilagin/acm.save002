@@ -1,0 +1,124 @@
+% Default to the notebook output style
+((* if not cell_style is defined *))
+    ((* set cell_style = 'style_ipython.tplx' *))
+((* endif *))
+
+% Inherit from the specified cell style.
+((* extends cell_style *))
+
+
+%===============================================================================
+% Latex Book
+%===============================================================================
+
+((* block predoc *))
+    ((( super() )))
+    ((* block tableofcontents *))\tableofcontents((* endblock tableofcontents *))
+((* endblock predoc *))
+
+((* block docclass *))
+%\documentclass{book}
+\documentclass{nuthesis}
+%\documentclass[a4paper,12pt,twoside]{nuthesis}  % default square logo 
+%\usepackage[turkish]{babel}
+%\usepackage[utf8]{inputenc} % This package will support Turkish chars
+%\usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+
+
+
+
+((* endblock docclass *))
+
+
+((* block author *))
+\author{VBT  \c{C}al{\i}\c{s}anlar{\i}}
+((* endblock author *))
+
+
+
+((* block definitions *))
+
+\input{latexdefs}
+
+((( super() )))
+
+((* endblock definitions *))
+
+
+((* block markdowncell scoped *))
+((( cell.source | citation2latex | strip_files_prefix | convert_pandoc('markdown', 'json',extra_args=[]) | resolve_references | convert_pandoc('json','latex', extra_args=["--chapters"]) )))
+((* endblock markdowncell *))
+
+((* block title *))
+\title{Ak{\i}ll{\i} \c{C}\"{o}z\"{u}m Merkezi}     %your thesis title,
+
+((* endblock title *))
+
+((* block maketitle *))
+%\maketitle
+\coverpage                  % create a cover page from the preamble info
+%%\putemptypage
+%\maketitle                  % create a title page from the preamble info
+%\include{dedication}        % include a dedication.tex file
+%\putemptypage
+%\include{declaration}        % include a dedication.tex file
+%\include{acknowlegements}   % include an acknowledgements.tex file
+\putemptypage
+\include{abstract}          % include the abstract
+
+\begin{romanpages}          % start roman page numbering
+\tableofcontents            % generate and include a table of contents
+\listoffigures              % generate and include a list of figures
+\end{romanpages}            % end roman page numbering
+
+((* endblock maketitle *))
+
+((* block bibliography *))
+\bibliographystyle{unsrt}
+\bibliography{refs}
+((* endblock bibliography *))
+
+%((*- block any_cell -*))
+%((*- if not 'hide' in cell['metadata'].get('tags', {}) -*))
+%((( super() )))
+%((*- endif -*))
+%((*- endblock any_cell -*))
+
+%===============================================================================
+% Input
+%===============================================================================
+
+((* block input scoped *))
+    ((( '\n'  )))
+((*- if cell.metadata.hide_input or nb.metadata.hide_input -*))
+((*- else -*))
+    ((( add_prompt(cell.source | highlight_code(strip_verbatim=True), cell, '', 'incolor') )))
+((*- endif -*))
+((* endblock input *))
+
+
+%===============================================================================
+% Output
+%===============================================================================
+
+((* block execute_result scoped *))
+    ((( '\n'  )))
+((*- if cell.metadata.hide_output -*))
+((*- else -*))
+    ((( super() )))
+((*- endif -*))
+((* endblock execute_result *))
+
+
+% Purpose: Renders an output/input prompt
+((* macro add_my_prompt(text, cell, prompt, prompt_color) -*))
+    ((*- if cell.execution_count is defined -*))
+    ((*- set execution_count = "" ~ (cell.execution_count | replace(None, " ")) -*))
+    ((*- else -*))
+    ((*- set execution_count = " " -*))
+    ((*- endif -*))
+    ((*- set indention =  " " * (execution_count | length + 7) -*))
+\begin{Verbatim}[fontsize=\small,commandchars=\\\{\}]
+((( text | add_prompts(first='{\color{' ~ prompt_color ~ '}' ~ prompt ~ '[{\\color{' ~ prompt_color ~ '}' ~ execution_count ~ '}]:} ', cont=indention) )))
+\end{Verbatim}
+((*- endmacro *))

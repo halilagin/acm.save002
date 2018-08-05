@@ -1,0 +1,1 @@
+run test.hdfs.sh

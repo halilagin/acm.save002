@@ -1,0 +1,29 @@
+bas: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+  api: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+    key: 6bTYTPzmY07epQkvFC4NRwRgZjmBbl7y3HO5P5ghqMp8os7DvVn38FEHcXRwUvVX
+    secret: dqX3NOdfDbiPjAgNgzFc6pT8CmiGuhDTwW9P1dRLqo5YSc9k5g4NxEEzwXnioO0F
+  application: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+    firstRun: 0
+  db: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+    mongodb: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+      connection: mongodb://localhost:27017/
+  default: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+    trade: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+      symbol: XLMETH
+      timeInterval: 60
+  threads: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+    candleWriter: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+      limit: 500
+      waitTime: 3
+    cleaner: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+      waitTime: 30
+      plot: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+        killTimeInterval: 20
+      websocket: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+        killTimeInterval: 30
+  websockets: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+    candle: !!python/object:bas.BasHashObjectSerializer.BasHashObjectSerializer
+      host: localhost
+      port: 4271
+
+test: a test config param

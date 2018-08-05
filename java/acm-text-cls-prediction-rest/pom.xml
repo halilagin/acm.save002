@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Licensed to the Apache Software Foundation (ASF) under one or more
+  ~ contributor license agreements.  See the NOTICE file distributed with
+  ~ this work for additional information regarding copyright ownership.
+  ~ The ASF licenses this file to You under the Apache License, Version 2.0
+  ~ (the "License"); you may not use this file except in compliance with
+  ~ the License.  You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+ <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.2.RELEASE</version>
+        <relativePath/>
+        <!-- lookup parent from repository -->
+    </parent>
+
+<!--
+  <parent>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-parent_2.11</artifactId>
+    <version>2.4.0-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+-->
+  <artifactId>acm-spark-springbook-text-cls_2.11</artifactId>
+  <packaging>jar</packaging>
+  <version>0.0.1</version>
+  <name>Spark Project Examples</name>
+  <url>http://spark.apache.org/</url>
+
+  <properties>
+    <spark.version>2.3.0</spark.version>
+    <sbt.project.name>acm-spark-springboot-txt-cls</sbt.project.name>
+    <build.testJarPhase>none</build.testJarPhase>
+    <build.copyDependenciesPhase>package</build.copyDependenciesPhase>
+    <hadoop.deps.scope>provided</hadoop.deps.scope>
+    <hive.deps.scope>provided</hive.deps.scope>
+    <parquet.deps.scope>provided</parquet.deps.scope>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>1.8</java.version>
+
+
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+    <maven.version>3.3.9</maven.version>
+    <slf4j.version>1.7.16</slf4j.version>
+    <log4j.version>1.2.17</log4j.version>
+    <hadoop.version>2.6.5</hadoop.version>
+    <protobuf.version>2.5.0</protobuf.version>
+    <yarn.version>${hadoop.version}</yarn.version>
+    <flume.version>1.6.0</flume.version>
+    <zookeeper.version>3.4.6</zookeeper.version>
+    <curator.version>2.6.0</curator.version>
+    <hive.group>org.spark-project.hive</hive.group>
+    <!-- Version used in Maven Hive dependency -->
+    <hive.version>1.2.1.spark2</hive.version>
+    <!-- Version used for internal directory structure -->
+    <hive.version.short>1.2.1</hive.version.short>
+    <derby.version>10.12.1.1</derby.version>
+    <parquet.version>1.10.0</parquet.version>
+    <orc.version>1.5.2</orc.version>
+    <orc.classifier>nohive</orc.classifier>
+    <hive.parquet.version>1.6.0</hive.parquet.version>
+    <jetty.version>9.3.20.v20170531</jetty.version>
+    <javaxservlet.version>3.1.0</javaxservlet.version>
+    <chill.version>0.8.4</chill.version>
+    <ivy.version>2.4.0</ivy.version>
+    <oro.version>2.0.8</oro.version>
+
+<codahale.metrics.version>3.1.5</codahale.metrics.version>
+    <avro.version>1.7.7</avro.version>
+    <avro.mapred.classifier>hadoop2</avro.mapred.classifier>
+    <jets3t.version>0.9.4</jets3t.version>
+    <aws.kinesis.client.version>1.7.3</aws.kinesis.client.version>
+    <!-- Should be consistent with Kinesis client dependency -->
+    <aws.java.sdk.version>1.11.76</aws.java.sdk.version>
+    <!-- the producer is used in tests -->
+    <aws.kinesis.producer.version>0.10.2</aws.kinesis.producer.version>
+    <!--  org.apache.httpcomponents/httpclient-->
+    <commons.httpclient.version>4.5.4</commons.httpclient.version>
+    <commons.httpcore.version>4.4.8</commons.httpcore.version>
+    <!--  commons-httpclient/commons-httpclient-->
+    <httpclient.classic.version>3.1</httpclient.classic.version>
+    <commons.math3.version>3.4.1</commons.math3.version>
+    <!-- managed up from 3.2.1 for SPARK-11652 -->
+    <commons.collections.version>3.2.2</commons.collections.version>
+    <scala.version>2.11.12</scala.version>
+    <scala.binary.version>2.11</scala.binary.version>
+    <codehaus.jackson.version>1.9.13</codehaus.jackson.version>
+    <fasterxml.jackson.version>2.6.7</fasterxml.jackson.version>
+    <fasterxml.jackson.databind.version>2.6.7.1</fasterxml.jackson.databind.version>
+    <snappy.version>1.1.7.1</snappy.version>
+    <netlib.java.version>1.1.2</netlib.java.version>
+    <calcite.version>1.2.0-incubating</calcite.version>
+
+<commons-codec.version>1.10</commons-codec.version>
+    <commons-io.version>2.4</commons-io.version>
+    <!-- org.apache.commons/commons-lang/-->
+    <commons-lang2.version>2.6</commons-lang2.version>
+    <!-- org.apache.commons/commons-lang3/-->
+    <commons-lang3.version>3.5</commons-lang3.version>
+    <datanucleus-core.version>3.2.10</datanucleus-core.version>
+    <janino.version>3.0.8</janino.version>
+    <jersey.version>2.22.2</jersey.version>
+    <joda.version>2.9.3</joda.version>
+    <jodd.version>3.5.2</jodd.version>
+    <jsr305.version>1.3.9</jsr305.version>
+    <libthrift.version>0.9.3</libthrift.version>
+    <antlr4.version>4.7</antlr4.version>
+    <jpam.version>1.1</jpam.version>
+    <selenium.version>2.52.0</selenium.version>
+    <!--
+             Managed up from older version from Avro; sync with jackson-module-paranamer dependency version
+    -->
+    <paranamer.version>2.8</paranamer.version>
+    <maven-antrun.version>1.8</maven-antrun.version>
+    <commons-crypto.version>1.0.0</commons-crypto.version>
+    <!--
+             If you are changing Arrow version specification, please check ./python/pyspark/sql/utils.py,
+    ./python/run-tests.py and ./python/setup.py too.
+    -->
+    <arrow.version>0.8.0</arrow.version>
+
+    <test.java.home>${java.home}</test.java.home>
+    <test.exclude.tags></test.exclude.tags>
+    <test.include.tags></test.include.tags>
+
+    <!-- Package to use when relocating shaded classes. -->
+    <spark.shade.packageName>org.spark_project</spark.shade.packageName>
+
+    <!-- Modules that copy jars to the build directory should do so under this location. -->
+    <jars.target.dir>${project.build.directory}/scala-${scala.binary.version}/jars</jars.target.dir>
+
+    <!-- Allow modules to enable / disable certain build plugins easily. -->
+    <build.testJarPhase>prepare-package</build.testJarPhase>
+    <build.copyDependenciesPhase>none</build.copyDependenciesPhase>
+
+ <!--
+            Dependency scopes that can be overridden by enabling certain profiles. These profiles are
+      declared in the projects that build assemblies.
+
+      For other projects the scope should remain as "compile", otherwise they are not available
+      during compilation if the dependency is transivite (e.g. "graphx/" depending on "core/" and
+      needing Hadoop classes in the classpath to compile).
+    -->
+    <flume.deps.scope>compile</flume.deps.scope>
+    <hadoop.deps.scope>compile</hadoop.deps.scope>
+    <hive.deps.scope>compile</hive.deps.scope>
+    <orc.deps.scope>compile</orc.deps.scope>
+    <parquet.deps.scope>compile</parquet.deps.scope>
+    <parquet.test.deps.scope>test</parquet.test.deps.scope>
+
+    <!--
+               Overridable test home. So that you can call individual pom files directly without
+      things breaking.
+    -->
+    <spark.test.home>${session.executionRootDirectory}</spark.test.home>
+
+    <CodeCacheSize>512m</CodeCacheSize>
+
+
+
+  </properties>
+
+  <dependencies>
+<!-- https://mvnrepository.com/artifact/org.lz4/lz4-java -->
+<!--
+<dependency>
+    <groupId>org.lz4</groupId>
+    <artifactId>lz4-java</artifactId>
+    <version>1.4.0</version>
+</dependency>
+-->
+
+
+    <!-- Prevent our dummy JAR from being included in Spark distributions or uploaded to YARN -->
+    <dependency>
+      <groupId>org.spark-project.spark</groupId>
+      <artifactId>unused</artifactId>
+      <version>1.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-core_${scala.binary.version}</artifactId>
+      <version>${spark.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-streaming_${scala.binary.version}</artifactId>
+      <version>${spark.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-mllib_${scala.binary.version}</artifactId>
+      <version>${spark.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-hive_${scala.binary.version}</artifactId>
+      <version>${spark.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-graphx_${scala.binary.version}</artifactId>
+      <version>${spark.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-streaming-kafka-0-10_${scala.binary.version}</artifactId>
+      <version>${spark.version}</version>
+      <scope>provided</scope>
+        <exclusions>
+          <exclusion>
+            <groupId>net.jpountz.lz4</groupId>
+             <artifactId>lz4</artifactId>
+          </exclusion>
+        </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-sql-kafka-0-10_${scala.binary.version}</artifactId>
+      <version>${spark.version}</version>
+      <scope>provided</scope>
+        <exclusions>
+          <exclusion>
+            <groupId>net.jpountz.lz4</groupId>
+             <artifactId>lz4</artifactId>
+          </exclusion>
+        </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-math3</artifactId>
+        <version>3.4.1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scalacheck</groupId>
+      <artifactId>scalacheck_${scala.binary.version}</artifactId>
+        <version>1.14.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+        <version>2.11.7</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.scopt</groupId>
+      <artifactId>scopt_${scala.binary.version}</artifactId>
+      <version>3.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.twitter</groupId>
+      <artifactId>parquet-hadoop-bundle</artifactId>
+      <version>1.6.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+
+
+
+
+<!-- SPRING DEPENDENCIES -->
+
+ <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>ch.qos.logback</groupId>
+                    <artifactId>logback-classic</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+<dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>log4j-over-slf4j</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.6.4</version>
+        </dependency>
+
+
+
+
+
+
+
+
+  </dependencies>
+
+
+<!--
+<dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>commons-httpclient</groupId>
+        <artifactId>commons-httpclient</artifactId>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+-->
+  <build>
+    <outputDirectory>target/scala-${scala.binary.version}/classes</outputDirectory>
+    <testOutputDirectory>target/scala-${scala.binary.version}/test-classes</testOutputDirectory>
+    <plugins>
+
+
+         <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+         </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-install-plugin</artifactId>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+
+
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <executions>
+        <execution>
+            <id>copy-dependencies</id>
+            <phase>prepare-package</phase>
+            <goals>
+                <goal>copy-dependencies</goal>
+            </goals>
+            
+            <configuration>
+                <includeScope>
+                compile
+                </includeScope>
+                <outputDirectory>
+                    ${project.build.directory}/libs
+                </outputDirectory>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+
+
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+    <configuration>
+        <archive>
+            <manifest>
+                <addClasspath>true</addClasspath>
+                <classpathPrefix>libs/</classpathPrefix>
+                <mainClass>
+                    org.apache.spark.examples.ml.JavaKMeansExample
+                </mainClass>
+            </manifest>
+        </archive>
+    </configuration>
+</plugin>
+
+
+
+    </plugins>
+  </build>
+  <profiles>
+    <profile>
+      <id>kinesis-asl</id>
+      <dependencies>
+        <dependency>
+          <groupId>org.apache.spark</groupId>
+          <artifactId>spark-streaming-kinesis-asl_${scala.binary.version}</artifactId>
+          <version>${project.version}</version>
+          <scope>provided</scope>
+        </dependency>
+      </dependencies>
+    </profile>
+  </profiles>
+</project>

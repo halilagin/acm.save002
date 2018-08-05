@@ -1,0 +1,22 @@
+<project>
+
+    <property name="lib.dir"     value="target/libs"/>
+    <property name="target"     value="target"/>
+
+
+<path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+        <fileset dir="${target}" includes="acm-spark-springbook-text-cls_2.11*.jar "/>
+    </path>
+
+
+
+    <target name="run">
+        <java classname="org.apache.spark.examples.ml.JavaKMeansExample" fork="true">
+         <classpath>
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+</project>

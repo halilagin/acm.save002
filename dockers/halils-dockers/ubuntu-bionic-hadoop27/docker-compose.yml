@@ -1,0 +1,27 @@
+version: '3'
+services:
+  namenode:
+    image: ubuntu-bionic-hadoop27:0.0.1 
+    container_name: namenode
+    hostname: namenode
+    networks:
+      default:
+        aliases:
+          - namenode
+    ports:
+      - "8088:8088"
+      - "50090:50090"
+      - "19888:19888"
+    command: "/etc/bootstrap.sh -d -namenode"
+
+  datanode:
+    depends_on:
+      - namenode
+    container_name: datanode
+    hostname: datanode
+    image: ubuntu-bionic-hadoop27:0.0.1
+    networks:
+      default:
+        aliases:
+          - datanode
+    command: "/etc/bootstrap.sh -d -datanode"

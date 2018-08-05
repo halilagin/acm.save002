@@ -1,0 +1,8 @@
+scala/target
+scala/project/target
+scala/project/project
+scala/.idea
+*.pyc
+.idea
+dist
+spark_ml_streaming.egg-info

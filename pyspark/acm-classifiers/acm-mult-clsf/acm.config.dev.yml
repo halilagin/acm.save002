@@ -1,0 +1,34 @@
+# vim: set tabstop=4  shiftwidth=4  softtabstop=4  expandtab
+
+
+
+
+
+       
+acm:
+    servers:
+        kafka:
+            address: acm:9092
+        hdfs:
+            host: namenode
+            port: 9000
+            restPort: 50070
+            fileOwner: root
+
+    models:
+        classification:
+            data:
+                default: hdfs
+                hdfs:
+                    inputDir: /acm/ml/clsf/data/test001 
+                    savedModels: /acm/ml/clsf/data/test001/models
+                    zipDir: /acm/ml/clsf/data/test001/modelzips
+                local:
+                    inputDir: /home/halil/gitlab/acm/pyspark/acm-text-classification/data/sanfrancisco-crime/train
+                    outputDir: /home/halil/gitlab/acm/pyspark/acm-text-classification/data/sanfrancisco-crime/model-build
+                    zipDir: /home/halil/gitlab/acm/pyspark/acm-text-classification/data/sanfrancisco-crime/model-zips
+            modelSavePolicy: mostRecentOne
+            kafkaTopic: classification-model-save-topic
+            lr:
+                name: logistic regression
+                

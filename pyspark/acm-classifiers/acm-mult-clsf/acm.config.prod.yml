@@ -1,0 +1,12 @@
+prod:
+    acm:
+        models:
+            classification:
+                trainDataDir: /home/halil/gitlab/acm/pyspark/acm-text-classification/data/sanfrancisco-crime/datapool
+dev:
+    acm:
+        models:
+            classification:
+                trainDataDir: /home/halil/gitlab/acm/pyspark/acm-text-classification/data/sanfrancisco-crime/datapool
+                lr:
+                    name:logistic regression

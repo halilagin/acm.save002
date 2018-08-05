@@ -1,0 +1,123 @@
+# vim: set expandtab tabstop=2 shiftwidth=2 softtabstop=2
+#see: https://docs.docker.com/compose/compose-file/#compose-file-structure-and-examples
+#see: https://github.com/gettyimages/docker-spark/blob/master/docker-compose.yml
+version: '3.5'
+
+services:
+  namenode:
+    image: ubuntu-bionic-hadoop27:0.0.1
+    container_name: namenode
+    hostname: namenode
+    networks:
+      - acmnet
+    volumes:
+      - ./supervisord/namenode/conf:/etc/supervisor/conf.d
+      - ./supervisord/namenode/execs:/etc/supervisord.execs
+
+    ports:
+      - "8088:8088"
+      - "50090:50090"
+      - "19888:19888"
+      - "3799:9000"
+    command: "/usr/bin/supervisord"
+
+  datanode:
+    depends_on:
+      - namenode
+    container_name: datanode
+    hostname: datanode
+    image: ubuntu-bionic-hadoop27:0.0.1
+    networks:
+      - acmnet
+    volumes:
+      - ./supervisord/datanode/conf:/etc/supervisor/conf.d
+      - ./supervisord/datanode/execs:/etc/supervisord.execs
+    command: "/usr/bin/supervisord"
+    
+  spark-master:
+    image: ubuntu-bionic-pyspark:0.0.1
+    hostname: spark-master
+    container_name: spark-master
+    networks:
+      - acmnet
+    environment:
+      MASTER: spark://spark-master:7077
+      SPARK_CONF_DIR: /home/jovyan/spark/conf
+      SPARK_PUBLIC_DNS: localhost
+    expose:
+      - 7001
+      - 7002
+      - 7003
+      - 7004
+      - 7005
+      - 7006
+      - 7077
+    ports:
+      - 34040:4040
+      - 36066:6066
+      - 37077:7077
+      - 38080:8080
+    volumes:
+      - ./spark-master.volume/conf/master:/home/jovyan/spark/conf
+      - ./spark-master.volume/data:/tmp/data
+      - ./supervisord/spark-master/conf:/etc/supervisor/conf.d
+      - ./supervisord/spark-master/execs:/etc/supervisord.execs
+    #command: /home/jovyan/spark/bin/spark-class org.apache.spark.deploy.master.Master -h spark-master
+    command: "/usr/bin/supervisord"
+
+  spark-worker:
+    image: ubuntu-bionic-pyspark:0.0.1
+    hostname: spark-worker-001
+    container_name: spark-worker-001
+    networks:
+      - acmnet
+    environment:
+      SPARK_CONF_DIR: /home/jovyan/spark/conf
+      SPARK_WORKER_CORES: 2
+      SPARK_WORKER_MEMORY: 2g
+      SPARK_WORKER_PORT: 8881
+      SPARK_WORKER_WEBUI_PORT: 8081
+      SPARK_PUBLIC_DNS: localhost
+    links:
+      - "spark-master:spark-master"
+    expose:
+      - 7012
+      - 7013
+      - 7014
+      - 7015
+      - 7016
+      - 8881
+    ports:
+      - 8081:8081
+    volumes:
+      - ./spark-worker-1.volume/conf/worker:/home/jovyan/spark/conf
+      - ./spark-worker-1.volume/data:/tmp/data
+      - ./supervisord/spark-worker/conf:/etc/supervisor/conf.d
+      - ./supervisord/spark-worker/execs:/etc/supervisord.execs
+    #command: /home/jovyan/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    command: "/usr/bin/supervisord"
+  
+#    batch-spark-cls-runner:
+#        depends_on:
+#          - spark-master  
+#          - spark-worker  
+#          - namenode
+#          - datanode
+#        image: acm-mult-clsf-runner:0.0.1
+#        environment:
+#            MASTER: spark://spark-master:7077
+#            SPARK_CONF_DIR: /home/jovyan/spark/conf
+#            SPARK_PUBLIC_DNS: localhost
+#        hostname: batch-spark-cls-runner
+#        networks:
+#          - acmnet
+#        links:
+#          - "spark-master:acm-spark-master"
+#          - "spark-worker:acm-spark-worker"
+#        volumes:
+#          - .:/home/jovyan/acm/ml/classification/text-clsf
+#        command: ./run.sh /home/jovyan/acm/ml/classification/text-clsf/multiclass-text-classification.py
+
+networks:
+  acmnet:
+    name: acmnet

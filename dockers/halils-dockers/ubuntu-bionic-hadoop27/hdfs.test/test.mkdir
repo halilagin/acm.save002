@@ -1,0 +1,1 @@
+curl -i -X PUT http://namenode:50090/webhdfs/v1/acm/ml/cls/test1/data?op=MKDIRS

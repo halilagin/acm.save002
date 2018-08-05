@@ -1,0 +1,1526 @@
+
+
+@article{ck0151_Landge_2012,
+	doi = {10.1109/tvcg.2012.286},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.286},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2467--2476},
+	author = {A. G. Landge and J. A. Levine and A. Bhatele and K. E. Isaacs and T. Gamblin and M. Schulz and S. H. Langer and Peer-Timo Bremer and V. Pascucci},
+	title = {Visualizing Network Traffic to Understand the Performance of Massively Parallel Simulations},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Block_2012,
+	doi = {10.1109/tvcg.2012.272},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.272},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2789--2798},
+	author = {F. Block and M. S. Horn and B. C. Phillips and J. Diamond and E. M. Evans and  Chia Shen},
+	title = {The {DeepTree} Exhibit: Visualizing the Tree of Life to Facilitate Informal Learning},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Ma_2012,
+	doi = {10.1109/tvcg.2012.244},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.244},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2799--2808},
+	author = {J. Ma and I. Liao and  Kwan-Liu Ma and J. Frazier},
+	title = {Living Liquid: Design and Evaluation of an Exploratory Visualization Tool for Museum Visitors},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Pileggi_2012,
+	doi = {10.1109/tvcg.2012.263},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.263},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2819--2828},
+	author = {Hannah Pileggi and Charles D. Stolper and J. Michael Boyle and John T. Stasko},
+	title = {{SnapShot}: Visualization to Propel Ice Hockey Analytics},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Wang_2012,
+	doi = {10.1007/s11390-012-1240-1},
+	url = {https://doi.org/10.1007%2Fs11390-012-1240-1},
+	year = 2012,
+	month = {jan},
+	publisher = {Springer Nature},
+	volume = {27},
+	number = {3},
+	pages = {515--526},
+	author = {Xue Wang and Xuan Zhou and Shan Wang},
+	title = {Summarizing Large-Scale Database Schema Using Community Detection},
+	journal = {Journal of Computer Science and Technology}
+}
+
+@article{ck0151_Albers_2011,
+	doi = {10.1109/tvcg.2011.232},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.232},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2392--2401},
+	author = {D. Albers and C. Dewey and M. Gleicher},
+	title = {Sequence Surveyor: Leveraging Overview for Scalable Genomic Alignment Visualization},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Pretorius_2011,
+	doi = {10.1109/tvcg.2011.253},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.253},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2402--2411},
+	author = {A. J. Pretorius and Mark-Anthony P. Bray and A. E. Carpenter and R. A. Ruddle},
+	title = {Visualization of Parameter Space for Image Analysis},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Das_2011,
+	doi = {10.1007/s00371-011-0655-y},
+	url = {https://doi.org/10.1007%2Fs00371-011-0655-y},
+	year = 2011,
+	month = {nov},
+	publisher = {Springer Nature},
+	volume = {27},
+	number = {12},
+	pages = {1055--1069},
+	author = {Koel Das and Aditi Majumder and Monica Siegenthaler and Hans Keirstead and M. Gopi},
+	title = {Automated cell classification and visualization for analyzing remyelination therapy},
+	journal = {The Visual Computer}
+}
+
+@article{ck0151_Andrienko_2010,
+	doi = {10.1080/13658816.2010.508043},
+	url = {https://doi.org/10.1080%2F13658816.2010.508043},
+	year = 2010,
+	month = {oct},
+	publisher = {Informa {UK} Limited},
+	volume = {24},
+	number = {10},
+	pages = {1577--1600},
+	author = {Gennady Andrienko and Natalia Andrienko and Urska Demsar and Doris Dransch and Jason Dykes and Sara Irina Fabrikant and Mikael Jern and Menno-Jan Kraak and Heidrun Schumann and Christian Tominski},
+	title = {Space, time and visual analytics},
+	journal = {International Journal of Geographical Information Science}
+}
+
+@article{ck0151_von_Landesberger_2011,
+	doi = {10.1111/j.1467-8659.2011.01898.x},
+	url = {https://doi.org/10.1111%2Fj.1467-8659.2011.01898.x},
+	year = 2011,
+	month = {apr},
+	publisher = {Wiley-Blackwell},
+	volume = {30},
+	number = {6},
+	pages = {1719--1749},
+	author = {T. von Landesberger and A. Kuijper and T. Schreck and J. Kohlhammer and J.J. van Wijk and J.-D. Fekete and D.W. Fellner},
+	title = {Visual Analysis of Large Graphs: State-of-the-Art and Future Research Challenges},
+	journal = {Computer Graphics Forum}
+}
+
+@article{ck0151_Bertini_2011,
+	doi = {10.1109/tvcg.2011.229},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.229},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2203--2212},
+	author = {E. Bertini and Andrada Tatu and Daniel Keim},
+	title = {Quality Metrics in High-Dimensional Data Visualization: An Overview and Systematization},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Crouser_2012,
+	doi = {10.1109/tvcg.2012.195},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.195},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2859--2868},
+	author = {R. J. Crouser and R. Chang},
+	title = {An Affordance-Based Framework for Human Computation and Human-Computer Collaboration},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Dasgupta_2011,
+	doi = {10.1109/tvcg.2011.163},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.163},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2241--2248},
+	author = {A. Dasgupta and R. Kosara},
+	title = {Adaptive Privacy-Preserving Visualization Using Parallel Coordinates},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Hullman_2011,
+	doi = {10.1109/tvcg.2011.175},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.175},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2213--2222},
+	author = {J. Hullman and E. Adar and P. Shah},
+	title = {Benefitting {InfoVis} with Visual Difficulties},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Kandel_2012,
+	doi = {10.1109/tvcg.2012.219},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.219},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2917--2926},
+	author = {Sean Kandel and Andreas Paepcke and Joseph M. Hellerstein and Jeffrey Heer},
+	title = {Enterprise Data Analysis and Visualization: An Interview Study},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Wickham_2011,
+	doi = {10.1109/tvcg.2011.227},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.227},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2223--2230},
+	author = {H. Wickham and H. Hofmann},
+	title = {Product Plots},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Yingcai_Wu_2013,
+	doi = {10.1109/tvcg.2012.114},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.114},
+	year = 2013,
+	month = {feb},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {19},
+	number = {2},
+	pages = {278--290},
+	author = {Yingcai Wu and  Xiaotong Liu and  Shixia Liu and  Kwan-Liu Ma},
+	title = {{ViSizer}: A Visualization Resizing Framework},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Yingcai_Wu_2010,
+	doi = {10.1109/tvcg.2010.183},
+	url = {https://doi.org/10.1109%2Ftvcg.2010.183},
+	year = 2010,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {16},
+	number = {6},
+	pages = {1109--1118},
+	author = {Yingcai Wu and  Furu Wei and  Shixia Liu and Norman Au and  Weiwei Cui and  Hong Zhou and  Huamin Qu},
+	title = {{OpinionSeer}: Interactive Visualization of Hotel Customer Feedback},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Wu_2012,
+	doi = {10.1109/tvcg.2012.285},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.285},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2526--2535},
+	author = {Yingcai Wu and Guo-Xun Yuan and Kwan-Liu Ma},
+	title = {Visualizing Flow of Uncertainty through Analytical Processes},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Munzner_2009,
+	doi = {10.1109/tvcg.2009.111},
+	url = {https://doi.org/10.1109%2Ftvcg.2009.111},
+	year = 2009,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {15},
+	number = {6},
+	pages = {921--928},
+	author = {T. Munzner},
+	title = {A Nested Model for Visualization Design and Validation},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Sedlmair_2012,
+	doi = {10.1109/tvcg.2012.213},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.213},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2431--2440},
+	author = {Michael Sedlmair and Miriah Meyer and Tamara Munzner},
+	title = {Design Study Methodology: Reflections from the Trenches and the Stacks},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Lam_2012,
+	doi = {10.1109/tvcg.2011.279},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.279},
+	year = 2012,
+	month = {sep},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {9},
+	pages = {1520--1536},
+	author = {H. Lam and E. Bertini and P. Isenberg and C. Plaisant and S. Carpendale},
+	title = {Empirical Studies in Information Visualization: Seven Scenarios},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Endert_2012,
+	doi = {10.1109/tvcg.2012.260},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.260},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2879--2888},
+	author = {A. Endert and P. Fiaux and C. North},
+	title = {Semantic Interaction for Sensemaking: Inferring Analytical Reasoning for Model Steering},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Bostock_2011,
+	doi = {10.1109/tvcg.2011.185},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.185},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2301--2309},
+	author = {M. Bostock and V. Ogievetsky and J. Heer},
+	title = {D{^3} Data-Driven Documents},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Fisher_2010,
+	doi = {10.1109/tvcg.2010.222},
+	url = {https://doi.org/10.1109%2Ftvcg.2010.222},
+	year = 2010,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {16},
+	number = {6},
+	pages = {1157--1163},
+	author = {D Fisher and S M Drucker and R Fernandez and S Ruble},
+	title = {Visualizations everywhere: A Multiplatform Infrastructure for Linked Visualizations},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Adrienko_2011,
+	doi = {10.1109/tvcg.2010.44},
+	url = {https://doi.org/10.1109%2Ftvcg.2010.44},
+	year = 2011,
+	month = {feb},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {2},
+	pages = {205--219},
+	author = {Natalia Adrienko and Gennady Adrienko},
+	title = {Spatial Generalization and Aggregation of Massive Movement Data},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Afzal_2012,
+	doi = {10.1109/tvcg.2012.264},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.264},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2556--2564},
+	author = {Shehzad Afzal and Ross Maciejewski and Yun Jang and Niklas Elmqvist and David S. Ebert},
+	title = {Spatial Text Visualization Using Automatic Typographic Maps},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Andrienko_2013,
+	doi = {10.1109/tvcg.2012.311},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.311},
+	year = 2013,
+	month = {jul},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {19},
+	number = {7},
+	pages = {1078--1094},
+	author = {G. Andrienko and N. Andrienko and C. Hurter and S. Rinzivillo and S. Wrobel},
+	title = {Scalable Analysis of Movement Data for Extracting and Exploring Significant Places},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Bak_2009,
+	doi = {10.1109/tvcg.2009.182},
+	url = {https://doi.org/10.1109%2Ftvcg.2009.182},
+	year = 2009,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {15},
+	number = {6},
+	pages = {913--920},
+	author = {P. Bak and F. Mansmann and H. Janetzko and D.A. Keim},
+	title = {Spatiotemporal Analysis of Sensor Logs using Growth Ring Maps},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Buchin_2011,
+	doi = {10.1109/tvcg.2011.202},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.202},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2536--2544},
+	author = {K. Buchin and B. Speckmann and K. Verbeek},
+	title = {Flow Map Layout via Spiral Trees},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Dang_2013,
+	doi = {10.1109/tvcg.2012.128},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.128},
+	year = 2013,
+	month = {mar},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {19},
+	number = {3},
+	pages = {470--483},
+	author = {Tuan Nhon Dang and Anushka Anand and Leland Wilkinson},
+	title = {{TimeSeer}: Scagnostics for High-Dimensional Time Series},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Ferreira_2011,
+	doi = {10.1109/tvcg.2011.176},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.176},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2374--2383},
+	author = {N. Ferreira and L. Lins and D. Fink and S. Kelling and C. Wood and J. Freire and C. Silva},
+	title = {{BirdVis}: Visualizing and Understanding Bird Populations},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Fink_2012,
+	doi = {10.1109/tvcg.2012.193},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.193},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2583--2592},
+	author = {M. Fink and Jan-Henrik Haunert and A. Schulz and J. Spoerhase and A. Wolff},
+	title = {Algorithms for Labeling Focus Regions},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Haunert_2011,
+	doi = {10.1109/tvcg.2011.191},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.191},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2555--2562},
+	author = {Jan-Henrik Haunert and Leon Sering},
+	title = {Drawing Road Networks with Focus Regions},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Kim_2013,
+	doi = {10.1109/tvcg.2013.66},
+	url = {https://doi.org/10.1109%2Ftvcg.2013.66},
+	year = 2013,
+	month = {sep},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {19},
+	number = {9},
+	pages = {1438--1454},
+	author = {SungYe Kim and Ross Maciejewski and Abish Malik and Yun Jang and David S. Ebert and Tobias Isenberg},
+	title = {Bristle Maps: A Multivariate Abstraction Technique for Geovisualization},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Krstajic_2011,
+	doi = {10.1109/tvcg.2011.179},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.179},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2432--2439},
+	author = {M. Krstajic and E. Bertini and D. Keim},
+	title = {{CloudLines}: Compact Display of Event Episodes in Multiple Time-Series},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Maciejewski_2011,
+	doi = {10.1109/tvcg.2010.82},
+	url = {https://doi.org/10.1109%2Ftvcg.2010.82},
+	year = 2011,
+	month = {apr},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {4},
+	pages = {440--453},
+	author = {R Maciejewski and R Hafen and S Rudolph and S G Larew and M A Mitchell and W S Cleveland and D S Ebert},
+	title = {Forecasting Hotspots{\textemdash}A Predictive Analytics Approach},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Maciejewski_2010,
+	doi = {10.1109/tvcg.2009.100},
+	url = {https://doi.org/10.1109%2Ftvcg.2009.100},
+	year = 2010,
+	month = {mar},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {16},
+	number = {2},
+	pages = {205--220},
+	author = {R. Maciejewski and S. Rudolph and R. Hafen and A. Abusalah and M. Yakout and M. Ouzzani and W.S. Cleveland and S.J. Grannis and D.S. Ebert},
+	title = {A Visual Analytics Approach to Understanding Spatiotemporal Hotspots},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Scheepens_2011,
+	doi = {10.1109/tvcg.2011.181},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.181},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2518--2527},
+	author = {R. Scheepens and N. Willems and H. van de Wetering and G. Andrienko and N. Andrienko and J. J. van Wijk},
+	title = {Composite Density Maps for Multivariate Trajectories},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Conglei_Shi_2012,
+	doi = {10.1109/tvcg.2012.253},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.253},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2669--2678},
+	author = {Conglei Shi and  Weiwei Cui and  Shixia Liu and  Panpan Xu and  Wei Chen and  Huamin Qu},
+	title = {{RankExplorer}: Visualization of Ranking Changes in Large Time Series Data},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Sips_2012,
+	doi = {10.1109/tvcg.2012.191},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.191},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2899--2907},
+	author = {Mike Sips and Patrick Kothur and Andrea Unger and Hans-Christian Hege and Doris Dransch},
+	title = {A Visual Analytics Approach to Multiscale Exploration of Environmental Time Series},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Slingsby_2011,
+	doi = {10.1109/tvcg.2011.197},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.197},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2545--2554},
+	author = {A. Slingsby and J. Dykes and J. Wood},
+	title = {Exploring Uncertainty in Geodemographics with Interactive Graphics},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Tominski_2012,
+	doi = {10.1109/tvcg.2012.265},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.265},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2565--2574},
+	author = {C. Tominski and H. Schumann and G. Andrienko and N. Andrienko},
+	title = {Stacking-Based Visualization of Trajectory Attribute Data},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Yu_Shuen_Wang_2011,
+	doi = {10.1109/tvcg.2011.205},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.205},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2528--2535},
+	author = {Yu-Shuen Wang and  Ming-Te Chi},
+	title = {Focus$\mathplus$Context Metro Maps},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Wongsuphasawat_2012,
+	doi = {10.1109/tvcg.2012.225},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.225},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2659--2668},
+	author = {K. Wongsuphasawat and D. Gotz},
+	title = {Exploring Flow, Factors, and Outcomes of Temporal Event Sequences with the Outflow Visualization},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Wood_2011,
+	doi = {10.1109/tvcg.2011.174},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.174},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2384--2391},
+	author = {J. Wood and D. Badawood and J. Dykes and A. Slingsby},
+	title = {{BallotMaps}: Detecting Name Bias in Alphabetically Ordered Ballot Papers},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Wood_2008,
+	doi = {10.1109/tvcg.2008.165},
+	url = {https://doi.org/10.1109%2Ftvcg.2008.165},
+	year = 2008,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {14},
+	number = {6},
+	pages = {1348--1355},
+	author = {J. Wood and J. Dykes},
+	title = {Spatially Ordered Treemaps},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Jian_Zhao_2011,
+	doi = {10.1109/tvcg.2011.195},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.195},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2422--2431},
+	author = {Jian Zhao and F. Chevalier and E. Pietriga and R. Balakrishnan},
+	title = {Exploratory Analysis of Time-Series with {ChronoLenses}},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Nan_Cao_2011,
+	doi = {10.1109/tvcg.2011.188},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.188},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2581--2590},
+	author = {Nan Cao and D. Gotz and J. Sun and  Huamin Qu},
+	title = {{DICON}: Interactive Visual Analysis of Multidimensional Clusters},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Claessen_2011,
+	doi = {10.1109/tvcg.2011.201},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.201},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2310--2316},
+	author = {J. H. T. Claessen and J. J. van Wijk},
+	title = {Flexible Linked Axes for Multivariate Data Visualization},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Zhao_Geng_2011,
+	doi = {10.1109/tvcg.2011.166},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.166},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2572--2580},
+	author = {Zhao Geng and  ZhenMin Peng and R. S. Laramee and R. Walker and J. C. Roberts},
+	title = {Angular Histograms: Frequency-Based Visualizations for Large, High Dimensional Data},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Joia_2011,
+	doi = {10.1109/tvcg.2011.220},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.220},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2563--2571},
+	author = {P. Joia and Fernando V. Paulovich and Danilo Coimbra and Jose Alberto Cuminato and Luis Gustavo Nonato},
+	title = {Local Affine Multidimensional Projection},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Keim_2002,
+	doi = {10.1109/tvcg.2002.1021578},
+	url = {https://doi.org/10.1109%2Ftvcg.2002.1021578},
+	year = 2002,
+	month = {jul},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {8},
+	number = {3},
+	pages = {255--269},
+	author = {D.A. Keim and M.C. Hao and U. Dayal},
+	title = {Hierarchical pixel bar charts},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Paiva_2011,
+	doi = {10.1109/tvcg.2011.212},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.212},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2459--2468},
+	author = {J. G. Paiva and L. Florian and H. Pedrini and G. Telles and R. Minghim},
+	title = {Improved Similarity Trees and their Application to Visual Data Classification},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Steinberger_2011,
+	doi = {10.1109/tvcg.2011.183},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.183},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2249--2258},
+	author = {M. Steinberger and M. Waldner and M. Streit and A. Lex and D. Schmalstieg},
+	title = {Context-Preserving Visual Links},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Tatu_2011,
+	doi = {10.1109/tvcg.2010.242},
+	url = {https://doi.org/10.1109%2Ftvcg.2010.242},
+	year = 2011,
+	month = {may},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {5},
+	pages = {584--597},
+	author = {Andrada Tatu and Georgia Albuquerque and Martin Eisemann and Peter Bak and Holger Theisel and Marcus Magnor and Daniel Keim},
+	title = {Automated Analytical Methods to Support Visual Exploration of High-Dimensional Data},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Turkay_2011,
+	doi = {10.1109/tvcg.2011.178},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.178},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2591--2599},
+	author = {C. Turkay and P. Filzmoser and H. Hauser},
+	title = {Brushing Dimensions - A Dual Visual Analysis Model for High-Dimensional Data},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Turkay_2012,
+	doi = {10.1109/tvcg.2012.256},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.256},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2621--2630},
+	author = {Cagatay Turkay and Arvid Lundervold and Astri Johansen Lundervold and Helwig Hauser},
+	title = {Representative Factor Generation for the Interactive Visual Analysis of High-Dimensional Data},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Xiaoru_Yuan_2009,
+	doi = {10.1109/tvcg.2009.179},
+	url = {https://doi.org/10.1109%2Ftvcg.2009.179},
+	year = 2009,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {15},
+	number = {6},
+	pages = {1001--1008},
+	author = {Xiaoru Yuan and  Peihong Guo and  He Xiao and  Hong Zhou and  Huamin Qu},
+	title = {Scattering Points in Parallel Coordinates},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Lex_2011,
+	doi = {10.1109/tvcg.2011.250},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.250},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2291--2300},
+	author = {Alexander Lex and Hans-Jorg Schulz and Marc Streit and Christian Partl and Dieter Schmalstieg},
+	title = {{VisBricks}: Multiform Visualization of Large, Inhomogeneous Data},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Nan_Cao_2012,
+	doi = {10.1109/tvcg.2012.291},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.291},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2649--2658},
+	author = {Nan Cao and  Yu-Ru Lin and  Xiaohua Sun and D. Lazer and  Shixia Liu and  Huamin Qu},
+	title = {Whisper: Tracing the Spatiotemporal Process of Information Diffusion in Real Time},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Nan_Cao_2010,
+	doi = {10.1109/tvcg.2010.154},
+	url = {https://doi.org/10.1109%2Ftvcg.2010.154},
+	year = 2010,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {16},
+	number = {6},
+	pages = {1172--1181},
+	author = {Nan Cao and  Jimeng Sun and  Yu-Ru Lin and D Gotz and  Shixia Liu and  Huamin Qu},
+	title = {{FacetAtlas}: Multifaceted Visualization for Rich Text Corpora},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Weiwei_Cui_2011,
+	doi = {10.1109/tvcg.2011.239},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.239},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2412--2421},
+	author = {Weiwei Cui and  Shixia Liu and  Li Tan and  Conglei Shi and  Yangqiu Song and  Zekai Gao and  Huamin Qu and  Xin Tong},
+	title = {{TextFlow}: Towards Better Understanding of Evolving Topics in Text},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Weiwei_Cui_2010,
+	doi = {10.1109/mcg.2010.102},
+	url = {https://doi.org/10.1109%2Fmcg.2010.102},
+	year = 2010,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {30},
+	number = {6},
+	pages = {42--53},
+	author = {Weiwei Cui and  Yingcai Wu and  Shixia Liu and  Furu Wei and Michelle X Zhou and  Huamin Qu},
+	title = {Context-Preserving, Dynamic Word Cloud Visualization},
+	journal = {{IEEE} Computer Graphics and Applications}
+}
+
+@article{ck0151_Dork_2010,
+	doi = {10.1109/tvcg.2010.129},
+	url = {https://doi.org/10.1109%2Ftvcg.2010.129},
+	year = 2010,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {16},
+	number = {6},
+	pages = {1129--1138},
+	author = {Marian Dork and Daniel Gruen and Carey Williamson and Sheelagh Carpendale},
+	title = {A Visual Backchannel for Large-Scale Events},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Kyle_Koh_2010,
+	doi = {10.1109/tvcg.2010.175},
+	url = {https://doi.org/10.1109%2Ftvcg.2010.175},
+	year = 2010,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {16},
+	number = {6},
+	pages = {1190--1197},
+	author = {Kyle Koh and  Bongshin Lee and  Bohyoung Kim and  Jinwook Seo},
+	title = {{ManiWordle}: Providing Flexible Control over Wordle},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Dongning_Luo_2012,
+	doi = {10.1109/tvcg.2010.225},
+	url = {https://doi.org/10.1109%2Ftvcg.2010.225},
+	year = 2012,
+	month = {jan},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {1},
+	pages = {93--105},
+	author = {Dongning Luo and  Jing Yang and M. Krstajic and W. Ribarsky and D. A. Keim},
+	title = {{EventRiver}: Visually Exploring Text Collections with Temporal References},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Oelke_2012,
+	doi = {10.1109/tvcg.2011.266},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.266},
+	year = 2012,
+	month = {may},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {5},
+	pages = {662--674},
+	author = {D. Oelke and D. Spretke and A. Stoffel and D. A. Keim},
+	title = {Visual Readability Analysis: How to Make Your Writings Easier to Read},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Segel_2010,
+	doi = {10.1109/tvcg.2010.179},
+	url = {https://doi.org/10.1109%2Ftvcg.2010.179},
+	year = 2010,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {16},
+	number = {6},
+	pages = {1139--1148},
+	author = {E Segel and J Heer},
+	title = {Narrative Visualization: Telling Stories with Data},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Strobelt_2009,
+	doi = {10.1109/tvcg.2009.139},
+	url = {https://doi.org/10.1109%2Ftvcg.2009.139},
+	year = 2009,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {15},
+	number = {6},
+	pages = {1145--1152},
+	author = {H. Strobelt and D. Oelke and C. Rohrdantz and A. Stoffel and D.A. Keim and O. Deussen},
+	title = {Document Cards: A Top Trumps Visualization for Documents},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Viegas_2009,
+	doi = {10.1109/tvcg.2009.171},
+	url = {https://doi.org/10.1109%2Ftvcg.2009.171},
+	year = 2009,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {15},
+	number = {6},
+	pages = {1137--1144},
+	author = {F.B. Viegas and M. Wattenberg and J. Feinberg},
+	title = {Participatory Visualization with Wordle},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Wu_2011,
+	doi = {10.1111/j.1467-8659.2011.01923.x},
+	url = {https://doi.org/10.1111%2Fj.1467-8659.2011.01923.x},
+	year = 2011,
+	month = {jun},
+	publisher = {Wiley-Blackwell},
+	volume = {30},
+	number = {3},
+	pages = {741--750},
+	author = {Yingcai Wu and Thomas Provan and Furu Wei and Shixia Liu and Kwan-Liu Ma},
+	title = {Semantic-Preserving Word Clouds by Seam Carving},
+	journal = {Computer Graphics Forum}
+}
+
+@article{ck0151_Jian_Zhao_2012,
+	doi = {10.1109/tvcg.2012.226},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.226},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2639--2648},
+	author = {Jian Zhao and F. Chevalier and C. Collins and R. Balakrishnan},
+	title = {Facilitating Discourse Analysis with Interactive Visualization},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Alper_2011,
+	doi = {10.1109/tvcg.2011.186},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.186},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2259--2267},
+	author = {B. Alper and N. Riche and G. Ramos and M. Czerwinski},
+	title = {Design Study of {LineSets}, a Novel Set Visualization Technique},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Juhee_Bae_2011,
+	doi = {10.1109/tvcg.2011.187},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.187},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2268--2275},
+	author = {Juhee Bae and B. Watson},
+	title = {Developing and Evaluating Quilts for the Depiction of Large Layered Graphs},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Brandes_2011,
+	doi = {10.1109/tvcg.2011.169},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.169},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2283--2290},
+	author = {U. Brandes and B. Nick},
+	title = {Asymmetric Relations in Longitudinal Social Networks},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Burch_2011,
+	doi = {10.1109/tvcg.2011.226},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.226},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2344--2353},
+	author = {M. Burch and C. Vehlow and F. Beck and S. Diehl and D. Weiskopf},
+	title = {Parallel Edge Splatting for Scalable Dynamic Graph Visualization},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Crnovrsanin_2011,
+	doi = {10.1111/j.1467-8659.2011.01957.x},
+	url = {https://doi.org/10.1111%2Fj.1467-8659.2011.01957.x},
+	year = 2011,
+	month = {jun},
+	publisher = {Wiley-Blackwell},
+	volume = {30},
+	number = {3},
+	pages = {1081--1090},
+	author = {Tarik Crnovrsanin and Isaac Liao and Yingcai Wu and Kwan-Liu Ma},
+	title = {Visual Recommendations for Network Navigation},
+	journal = {Computer Graphics Forum}
+}
+
+@article{ck0151_Weiwei_Cui_2008,
+	doi = {10.1109/tvcg.2008.135},
+	url = {https://doi.org/10.1109%2Ftvcg.2008.135},
+	year = 2008,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {14},
+	number = {6},
+	pages = {1277--1284},
+	author = {Weiwei Cui and  Hong Zhou and  Huamin Qu and  Pak Chung Wong and  Xiaoming Li},
+	title = {Geometry-Based Edge Clustering for Graph Visualization},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Dinkla_2012,
+	doi = {10.1109/tvcg.2012.208},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.208},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2457--2466},
+	author = {K. Dinkla and M. A. Westenberg and J. J. van Wijk},
+	title = {Compressed Adjacency Matrices: Untangling Gene Regulatory Networks},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Dork_2012,
+	doi = {10.1109/tvcg.2012.252},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.252},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2709--2718},
+	author = {M. Dork and Nathalie Henry Riche and G. Ramos and S. Dumais},
+	title = {{PivotPaths}: Strolling through Faceted Information Spaces},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Ellis_2007,
+	doi = {10.1109/tvcg.2007.70535},
+	url = {https://doi.org/10.1109%2Ftvcg.2007.70535},
+	year = 2007,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {13},
+	number = {6},
+	pages = {1216--1223},
+	author = {G. Ellis and A. Dix},
+	title = {A Taxonomy of Clutter Reduction for Information Visualisation},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Ersoy_2011,
+	doi = {10.1109/tvcg.2011.233},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.233},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2364--2373},
+	author = {O. Ersoy and C. Hurter and Fernando V. Paulovich and G. Cantareiro and A. Telea},
+	title = {Skeleton-Based Edge Bundling for Graph Visualization},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Kun_Chuan_Feng_2012,
+	doi = {10.1109/tvcg.2011.128},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.128},
+	year = 2012,
+	month = {aug},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {8},
+	pages = {1330--1342},
+	author = {Kun-Chuan Feng and  Chaoli Wang and  Han-Wei Shen and  Tong-Yee Lee},
+	title = {Coherent Time-Varying Graph Drawing with Multifocus$\mathplus$Context Interaction},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Liang_Gou_2011,
+	doi = {10.1109/tvcg.2011.247},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.247},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2449--2458},
+	author = {Liang Gou and  Xiaolong Zhang},
+	title = {{TreeNetViz}: Revealing Patterns of Networks over Tree Structures},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Hadlak_2011,
+	doi = {10.1109/tvcg.2011.213},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.213},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2334--2343},
+	author = {S. Hadlak and Hans-Jorg Schulz and H. Schumann},
+	title = {In Situ Exploration of Large Dynamic Networks},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Henry_2006,
+	doi = {10.1109/tvcg.2006.160},
+	url = {https://doi.org/10.1109%2Ftvcg.2006.160},
+	year = 2006,
+	month = {sep},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {12},
+	number = {5},
+	pages = {677--684},
+	author = {Nathalie Henry and Jean-daniel Fekete},
+	title = {{MatrixExplorer}: a Dual-Representation System to Explore Social Networks},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Henry_2007,
+	doi = {10.1109/tvcg.2007.70582},
+	url = {https://doi.org/10.1109%2Ftvcg.2007.70582},
+	year = 2007,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {13},
+	number = {6},
+	pages = {1302--1309},
+	author = {Nathalie Henry and Jean-Daniel Fekete and Michael J. McGuffin},
+	title = {{NodeTrix}: a Hybrid Visualization of Social Networks},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Holten_2006,
+	doi = {10.1109/tvcg.2006.147},
+	url = {https://doi.org/10.1109%2Ftvcg.2006.147},
+	year = 2006,
+	month = {sep},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {12},
+	number = {5},
+	pages = {741--748},
+	author = {D. Holten},
+	title = {Hierarchical Edge Bundles: Visualization of Adjacency Relations in Hierarchical Data},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Holten_2009,
+	doi = {10.1111/j.1467-8659.2009.01450.x},
+	url = {https://doi.org/10.1111%2Fj.1467-8659.2009.01450.x},
+	year = 2009,
+	month = {jun},
+	publisher = {Wiley-Blackwell},
+	volume = {28},
+	number = {3},
+	pages = {983--990},
+	author = {Danny Holten and Jarke J. van Wijk},
+	title = {Force-Directed Edge Bundling for Graph Visualization},
+	journal = {Computer Graphics Forum}
+}
+
+@article{ck0151_Hurter_2011,
+	doi = {10.1109/tvcg.2011.223},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.223},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2600--2609},
+	author = {C. Hurter and O. Ersoy and Alexandru Telea},
+	title = {{MoleView}: An Attribute and Structure-Based Semantic Lens for Large Element-Based Plots},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Sheng_Jie_Luo_2012,
+	doi = {10.1109/tvcg.2011.104},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.104},
+	year = 2012,
+	month = {may},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {5},
+	pages = {810--821},
+	author = {Sheng-Jie Luo and  Chun-Liang Liu and  Bing-Yu Chen and  Kwan-Liu Ma},
+	title = {Ambiguity-Free Edge-Bundling for Interactive Graph Visualization},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Sedlmair_2012,
+	doi = {10.1109/tvcg.2012.255},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.255},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2729--2738},
+	author = {M. Sedlmair and A. Frank and T. Munzner and A. Butz},
+	title = {{RelEx}: Visualization for Actively Changing Overlay Network Specifications},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Selassie_2011,
+	doi = {10.1109/tvcg.2011.190},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.190},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2354--2363},
+	author = {D. Selassie and B. Heller and J. Heer},
+	title = {Divided Edge Bundling for Directional Network Data},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Tanahashi_2012,
+	doi = {10.1109/tvcg.2012.212},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.212},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2679--2688},
+	author = {Y. Tanahashi and  Kwan-Liu Ma},
+	title = {Design Considerations for Optimizing Storyline Visualizations},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Jing_Yang_2013,
+	doi = {10.1109/tvcg.2012.172},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.172},
+	year = 2013,
+	month = {jun},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {19},
+	number = {6},
+	pages = {1034--1047},
+	author = {Jing Yang and  Yujie Liu and  Xin Zhang and  Xiaoru Yuan and  Ye Zhao and S. Barlowe and  Shixia Liu},
+	title = {{PIWI}: Visually Exploring Graphs Based on Their Community Structure},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Xiaoru_Yuan_2012,
+	doi = {10.1109/tvcg.2012.236},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.236},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2699--2708},
+	author = {Xiaoru Yuan and  Limei Che and  Yifan Hu and  Xin Zhang},
+	title = {Intelligent Graph Layout Using Many Users{\textquotesingle} Input},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Zinsmaier_2012,
+	doi = {10.1109/tvcg.2012.238},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.238},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2486--2495},
+	author = {M. Zinsmaier and U. Brandes and O. Deussen and H. Strobelt},
+	title = {Interactive Level-of-Detail Rendering of Large Graphs},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Correa_2012,
+	doi = {10.1109/tvcg.2010.260},
+	url = {https://doi.org/10.1109%2Ftvcg.2010.260},
+	year = 2012,
+	month = {jan},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {1},
+	pages = {106--120},
+	author = {C. Correa and T. Crnovrsanin and  Kwan-Liu Ma},
+	title = {Visual Reasoning about Social Networks Using Centrality Sensitivity},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Martins_2012,
+	doi = {10.1007/s11390-012-1265-5},
+	url = {https://doi.org/10.1007%2Fs11390-012-1265-5},
+	year = 2012,
+	month = {jul},
+	publisher = {Springer Nature},
+	volume = {27},
+	number = {4},
+	pages = {791--810},
+	author = {Rafael Messias Martins and Gabriel Faria Andery and Henry Heberle and Fernando Vieira Paulovich and Alneu de Andrade Lopes and Helio Pedrini and Rosane Minghim},
+	title = {Multidimensional Projections for Visual Analysis of Social Networks},
+	journal = {Journal of Computer Science and Technology}
+}
+
+@article{ck0151_Bowman_2012,
+	doi = {10.1109/tvcg.2012.77},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.77},
+	year = 2012,
+	month = {nov},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {11},
+	pages = {1956--1968},
+	author = {B. Bowman and N. Elmqvist and T. J. Jankun-Kelly},
+	title = {Toward Visualization for Games: Theory, Design Space, and Patterns},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Trimm_2012,
+	doi = {10.1109/tvcg.2012.288},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.288},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2809--2818},
+	author = {David Trimm and Penny Rheingans and Marie desJardins},
+	title = {Visualizing Student Histories Using Clustering and Composition},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Nocaj_2012,
+	doi = {10.1109/tvcg.2012.250},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.250},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2546--2555},
+	author = {Arlind Nocaj and Ulrik Brandes},
+	title = {Organizing Search Results with a Reference Map},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Albuquerque_2011,
+	doi = {10.1109/tvcg.2011.237},
+	url = {https://doi.org/10.1109%2Ftvcg.2011.237},
+	year = 2011,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {17},
+	number = {12},
+	pages = {2317--2324},
+	author = {G. Albuquerque and T. Lowe and M. Magnor},
+	title = {Synthetic Generation of High-Dimensional Datasets},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Lu_2013,
+	doi = {10.1007/s11432-013-4832-7},
+	url = {https://doi.org/10.1007%2Fs11432-013-4832-7},
+	year = 2013,
+	month = {may},
+	publisher = {Springer Nature},
+	volume = {56},
+	number = {5},
+	pages = {1--14},
+	author = {ZhiMao Lu and Chen Liu and Qi Zhang and ChunXiang Zhang and DongMei Fan and Peng Yang},
+	title = {Visual analytics for the clustering capability of data},
+	journal = {Science China Information Sciences}
+}
+
+@article{ck0151_Heimerl_2012,
+	doi = {10.1109/tvcg.2012.277},
+	url = {https://doi.org/10.1109%2Ftvcg.2012.277},
+	year = 2012,
+	month = {dec},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {18},
+	number = {12},
+	pages = {2839--2848},
+	author = {F. Heimerl and S. Koch and H. Bosch and T. Ertl},
+	title = {Visual Classifier Training for Text Document Retrieval},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}
+
+@article{ck0151_Keim_1996,
+	doi = {10.1109/69.553159},
+	url = {https://doi.org/10.1109%2F69.553159},
+	year = 1996,
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {8},
+	number = {6},
+	pages = {923--938},
+	author = {D.A. Keim and H.-P. Kriegel},
+	title = {Visualization techniques for mining large databases: a comparison},
+	journal = {{IEEE} Transactions on Knowledge and Data Engineering}
+}
+
+@article{ck0151_Tory_2005,
+	doi = {10.1109/mcg.2005.102},
+	url = {https://doi.org/10.1109%2Fmcg.2005.102},
+	year = 2005,
+	month = {sep},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {25},
+	number = {5},
+	pages = {8--11},
+	author = {M. Tory and T. Moller},
+	title = {Evaluating Visualizations: Do Expert Reviews Work?},
+	journal = {{IEEE} Computer Graphics and Applications}
+}
+
+@article{ck0151_Jankun_Kelly_2007,
+	doi = {10.1109/tvcg.2007.28},
+	url = {https://doi.org/10.1109%2Ftvcg.2007.28},
+	year = 2007,
+	month = {mar},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {13},
+	number = {2},
+	pages = {357--369},
+	author = {T.j. Jankun-Kelly and Kwan-liu Ma and Michael Gertz},
+	title = {A Model and Framework for Visualization Exploration},
+	journal = {{IEEE} Transactions on Visualization and Computer Graphics}
+}

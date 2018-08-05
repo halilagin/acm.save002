@@ -1,0 +1,31 @@
+# vim :set ts=2 sw=2 sts=2 et
+#see: https://docs.docker.com/compose/compose-file/#compose-file-structure-and-examples
+#see: https://docs.docker.com/compose/compose-file/compose-file-v2/#ipv4_address-ipv6_address
+version: '3.5'
+
+services:
+
+  acm-mult-clsf-runner-test001:
+    image: acm-mult-clsf-runner:0.0.1
+    environment:
+      MASTER: spark://spark-master:7077
+      SPARK_CONF_DIR: /home/jovyan/spark/conf
+      SPARK_PUBLIC_DNS: localhost
+    hostname: acm-mult-clsf-runner-test001
+    container_name: acm-mult-clsf-runner-test001
+    #networks:
+    #  - acmnet
+    volumes:
+      - ./supervisord.execs:/etc/supervisord.execs
+      - ./etc.supervisor:/etc/supervisor/conf.d
+      - .:/home/jovyan/acm/ml/classification/text-clsf
+    command: "/usr/bin/supervisord"
+
+#networks:
+#  acmnet:
+#    name: acmnet
+
+networks:
+  default:
+    external:
+      name: acmnet

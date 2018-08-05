@@ -1,0 +1,13 @@
+base-ubuntu-bionic
+	-- ubuntu-bionic-latex
+		-- ubuntu-bionic-base-jupyter
+			-- ubuntu-bionic-jupyter-minimal
+				-- ubuntu-bionic-jupyter-scipy
+					-- ubuntu-bionic-jupyter-latex
+                        -- ubuntu-bionic-pyspark
+				-- acm-multiclass-classification
+				-- acm-mult-clsf-rest-executor
+				-- acm-mult-clsf-runner
+	-- ubuntu-bionic-java
+		-- ubuntu-bionic-hadoop27
+		-- ubuntu-bionic-kafka

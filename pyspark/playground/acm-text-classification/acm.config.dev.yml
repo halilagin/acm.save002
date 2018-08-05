@@ -1,0 +1,14 @@
+acm:
+    servers:
+        kafka:
+            address: acm:9092
+    models:
+        classification:
+            inputDir: /home/halil/gitlab/acm/pyspark/acm-text-classification/data/sanfrancisco-crime/datapool
+            outputDir: /home/halil/gitlab/acm/pyspark/acm-text-classification/data/sanfrancisco-crime/model-build
+            zipDir: /home/halil/gitlab/acm/pyspark/acm-text-classification/data/sanfrancisco-crime/model-zips
+            modelSavePolicy: mostRecentOne
+            kafkaTopic: classification-model-save-topic
+            lr:
+                name: logistic regression
+                
